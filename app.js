@@ -40,10 +40,10 @@ app.post("/", function(req, res){
 
   var options = {
     //Authorization post request
-    url:"https://us4.api.mailchimp.com/3.0/lists/9172d5e8d7",
+    url:"https://usX.api.mailchimp.com/3.0/lists/LIST-KEY",
     method:"POST",
     headers:{
-      "Authorization":"kuma 8364e6aeae2afcf6b9136ebc02c4bbf0-us4"
+      "Authorization":"NameToAuth API-KEY"
     },
     //body data*
     body:jsonData
@@ -71,6 +71,3 @@ app.listen(process.env.PORT || 3000, function(){
   console.log("Server is running on port 3000.");
 });
 
-
-// 8364e6aeae2afcf6b9136ebc02c4bbf0-us4
-// 9172d5e8d7
